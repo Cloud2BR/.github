@@ -1,4 +1,4 @@
-# Cloud2BR
+# Cloud2BR - Cloud to be Ready (Consulting & Enablement)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [Cloud2BR](https://github.com/Cloud2BR)
@@ -7,12 +7,7 @@ Last updated: 2026-02-25
 
 ----------
 
-> Cloud2BR (Cloud to be Ready) is a consulting and enablement hub dedicated to helping organizations explore, validate, and adopt Microsoft cloud solutions.
-
-
-> [!IMPORTANT]
-> The information provided and any document (such as scripts, sample codes, etc.) is provided `AS-IS` and `WITH ALL FAULTS`. Pricing estimates are for `demonstration purposes only and do not reflect final pricing`. `Microsoft assumes no liability` for your use of this information and makes no guarantees or warranties, expressed or implied, regarding its accuracy or completeness, including any pricing details.
-> For official guidance, support, or more detailed information, refer to Microsoft's official documentation or contact Microsoft directly: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
+> Cloud2BR (Cloud to be Ready) is a `consulting and enablement hub` dedicated to helping organizations explore, validate, and adopt Microsoft cloud solutions. Specialize in PoC (proof-of-concept) projects, sandbox environments, training sessions, and technical events that empower teams to learn, experiment, and innovate.
 
 <details>
 <summary><b> Endorsed for: </b> (Click to expand)</summary>
@@ -34,11 +29,13 @@ Last updated: 2026-02-25
 
 </details>
 
-We specialize in proof-of-concept projects, sandbox environments, training sessions, and technical events that empower teams to learn, experiment, and innovate.
-
-## Mission
-
-> To make the cloud ready, accessible, and actionable, enabling organizations to move seamlessly from concept to reality.
+> [!IMPORTANT]
+> 
+> Mission: `To make the cloud ready, accessible, and actionable, enabling organizations to move seamlessly from concept to reality.` 
+> 
+> The information provided and any document (such as scripts, sample codes, etc.) is provided `AS-IS` and `WITH ALL FAULTS`. Pricing estimates are for `demonstration purposes only and do not reflect final pricing`. `Microsoft assumes no liability` for your use of this information and makes no guarantees or warranties, expressed or implied, regarding its accuracy or completeness, including any pricing details.
+> 
+> For official guidance, support, or more detailed information, refer to Microsoft's official documentation or contact Microsoft directly: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
 
 ## What You'll Find Here
 
