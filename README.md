@@ -1,7 +1,5 @@
 # .github (Org Profile + Community Health)
 
-Costa Rica
-
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [Cloud2BR](https://github.com/Cloud2BR)
 
