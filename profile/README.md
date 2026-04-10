@@ -58,7 +58,7 @@ Last updated: 2026-02-25
 - Join events and webinars to deepen cloud knowledge
 
 > [!NOTE]
-> - Content in Cloud2BR repositories is intended for learning, demonstrations, and proof-of-concepts. Review and validate before using in it.
+> Content in Cloud2BR repositories is intended for learning, demonstrations, and proof-of-concepts. Review and validate before using in it.
 
 <!-- START BADGE -->
 <div align="center">
