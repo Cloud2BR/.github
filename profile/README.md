@@ -81,6 +81,7 @@ flowchart LR
 - [DP-900: Azure Data Fundamentals](https://github.com/MicrosoftCloudEssentials-LearningHub/DP-900StudyGuide)
 - [AI-102: Azure AI Engineer Associate](https://github.com/MicrosoftCloudEssentials-LearningHub/AI-102StudyGuide)
 - [DP-100: Designing and Implementing a Data Science Solution on Azure](https://github.com/MicrosoftCloudEssentials-LearningHub/DP-100StudyGuide)
+- [GH-900: GitHub Foundations](https://github.com/Cloud2BR-MSFTLearningHub/GH-900StudyGuide)
 
 </details>
 
