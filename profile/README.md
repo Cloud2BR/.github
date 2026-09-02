@@ -18,28 +18,6 @@ Last updated: 2026-09-02
 
 > **Mission:** Make the cloud _ready_, _accessible_, and _actionable_, helping teams move from concept to reality.
 
-## The Cloud2BR ecosystem
-
-```mermaid
-mindmap
-  root((Cloud2BR))
-    Consulting
-      Proof of Concepts
-      Sandbox Environments
-      Advisory
-    Enablement
-      Training
-      Tech Talks
-      Workshops
-    Community
-      Open Source Repos
-      Guides and Templates
-      Events
-    Related Orgs
-      TEC Hub
-      MSFT Learning Hub
-```
-
 ## How we work
 
 ```mermaid
