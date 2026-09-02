@@ -10,8 +10,6 @@
 [![Format](https://img.shields.io/badge/Format-PoC%20%7C%20Sandbox%20%7C%20Training-6A1B9A?style=for-the-badge)](#what-youll-find-here)
 [![Community](https://img.shields.io/badge/Community-Open%20Source-2E7D32?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cloud2BR)
 
-Last updated: 2026-09-02
-
 </div>
 
 ----------
