@@ -30,9 +30,3 @@ Last updated: 2026-09-02
 > - The workflow uses an open source tool repository to generate the badge and `metrics.json`.
 > - Manual edits to `metrics.json` are not recommended because the workflow will overwrite it.
 
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-0-0A66C2" alt="Total views">
-  <p>Refresh Date: 2026-09-02</p>
-</div>
-<!-- END BADGE -->
