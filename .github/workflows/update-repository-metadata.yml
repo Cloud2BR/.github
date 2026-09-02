@@ -1,0 +1,97 @@
+name: Update Repository Metadata
+
+on:
+  workflow_call:
+    secrets:
+      TRAFFIC_TOKEN:
+        required: false
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Update README date and visitor badge
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+
+          const repository = process.env.GITHUB_REPOSITORY;
+          const token = process.env.TRAFFIC_TOKEN || process.env.GITHUB_TOKEN;
+          const today = new Date().toISOString().slice(0, 10);
+          const files = ['README.md', 'profile/README.md'].filter(fs.existsSync);
+
+          async function getTrafficCount() {
+            const response = await fetch(`https://api.github.com/repos/${repository}/traffic/views`, {
+              headers: {
+                Accept: 'application/vnd.github+json',
+                Authorization: `Bearer ${token}`,
+                'X-GitHub-Api-Version': '2022-11-28'
+              }
+            });
+            if (!response.ok) {
+              throw new Error(`Traffic API request failed with ${response.status}. Set TRAFFIC_TOKEN if the default Actions token lacks traffic access.`);
+            }
+            const traffic = await response.json();
+            if (!Number.isInteger(traffic.count)) {
+              throw new Error('Traffic API response did not include a numeric total view count.');
+            }
+            return traffic;
+          }
+
+          function updateReadme(file, totalViews) {
+            let text = fs.readFileSync(file, 'utf8');
+            const newline = text.includes('\r\n') ? '\r\n' : '\n';
+            const badge = [
+              '<!-- START BADGE -->',
+              '<div align="center">',
+              `  <img src="https://img.shields.io/badge/Total%20views-${totalViews}-0A66C2" alt="Total views">`,
+              `  <p>Refresh Date: ${today}</p>`,
+              '</div>',
+              '<!-- END BADGE -->'
+            ].join(newline);
+
+            if (file === 'README.md') {
+              if (/^Last updated: \d{4}-\d{2}-\d{2}$/m.test(text)) {
+                text = text.replace(/^Last updated: \d{4}-\d{2}-\d{2}$/m, `Last updated: ${today}`);
+              } else {
+                const headingEnd = text.indexOf(newline);
+                text = headingEnd === -1 ? `${text}${newline}${newline}Last updated: ${today}${newline}` : `${text.slice(0, headingEnd + 1)}${newline}Last updated: ${today}${newline}${text.slice(headingEnd + 1)}`;
+              }
+            } else {
+              text = text.replace(/^Last updated: \d{4}-\d{2}-\d{2}\r?\n\r?\n?/m, '');
+            }
+
+            if (/<!-- START BADGE -->[\s\S]*?<!-- END BADGE -->/.test(text)) {
+              text = text.replace(/<!-- START BADGE -->[\s\S]*?<!-- END BADGE -->/, badge);
+            } else {
+              text = text.replace(/\n?<!-- END BADGE -->/g, '');
+              text = `${text.trimEnd()}${newline}${newline}${badge}${newline}`;
+            }
+            fs.writeFileSync(file, text, 'utf8');
+          }
+
+          (async () => {
+            const traffic = await getTrafficCount();
+            files.forEach((file) => updateReadme(file, traffic.count));
+            fs.writeFileSync('metrics.json', `${JSON.stringify({ repository, refresh_date: today, count: traffic.count, uniques: traffic.uniques, views: traffic.views }, null, 2)}\n`);
+            console.log(`Updated ${files.join(', ')} with ${traffic.count} total views.`);
+          })().catch((error) => { console.error(error.message); process.exit(1); });
+          NODE
+
+      - name: Commit metadata updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile/README.md metrics.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore: update repository metadata"
+          git push
