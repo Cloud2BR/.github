@@ -6,9 +6,9 @@
 
 **Consulting & Enablement hub for Microsoft cloud adoption**
 
-[![Focus](https://img.shields.io/badge/Focus-Microsoft%20Cloud-0A66C2?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
-[![Format](https://img.shields.io/badge/Format-PoC%20%7C%20Sandbox%20%7C%20Training-6A1B9A?style=for-the-badge)](#what-youll-find-here)
-[![Community](https://img.shields.io/badge/Community-Open%20Source-2E7D32?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cloud2BR)
+<a href="https://azure.microsoft.com/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Focus-Microsoft%20Cloud-0A66C2?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Focus"></a>
+<a href="#what-youll-find-here"><img src="https://img.shields.io/badge/Format-PoC%20%7C%20Sandbox%20%7C%20Training-6A1B9A?style=for-the-badge" alt="Format"></a>
+<a href="https://github.com/Cloud2BR" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Community-Open%20Source-2E7D32?style=for-the-badge&logo=github&logoColor=white" alt="Community"></a>
 
 </div>
 
@@ -43,21 +43,21 @@ flowchart LR
 <details>
 <summary><strong>Endorsed for Microsoft TechWorkshops</strong></summary>
 
-- [L200: Migrate and Modernize your Estate](https://partner.microsoft.com/id-id/marketing-center/assets/collection/migrate-and-modernize-your-estate#/)
-- [L200: Azure AI Apps and Agents](https://microsoft.github.io/TWL200-Copilot-and-agents-at-work/)
-- [L300: Azure AI Apps and Agents](https://microsoft.github.io/TechWorkshop-L300-AI-Apps-and-agents/)
-- [L300: GitHub Copilot and platform](https://github.com/microsoft/TechWorkshop-L300-GitHub-Copilot-and-platform)
+- <a href="https://partner.microsoft.com/id-id/marketing-center/assets/collection/migrate-and-modernize-your-estate#/" target="_blank" rel="noopener noreferrer">L200: Migrate and Modernize your Estate</a>
+- <a href="https://microsoft.github.io/TWL200-Copilot-and-agents-at-work/" target="_blank" rel="noopener noreferrer">L200: Azure AI Apps and Agents</a>
+- <a href="https://microsoft.github.io/TechWorkshop-L300-AI-Apps-and-agents/" target="_blank" rel="noopener noreferrer">L300: Azure AI Apps and Agents</a>
+- <a href="https://github.com/microsoft/TechWorkshop-L300-GitHub-Copilot-and-platform" target="_blank" rel="noopener noreferrer">L300: GitHub Copilot and platform</a>
 
 </details>
 
 <details>
 <summary><strong>Microsoft certification study guides</strong></summary>
 
-- [AI-900: Azure AI Fundamentals](https://github.com/MicrosoftCloudEssentials-LearningHub/AI-900StudyGuide)
-- [DP-900: Azure Data Fundamentals](https://github.com/MicrosoftCloudEssentials-LearningHub/DP-900StudyGuide)
-- [AI-102: Azure AI Engineer Associate](https://github.com/MicrosoftCloudEssentials-LearningHub/AI-102StudyGuide)
-- [DP-100: Designing and Implementing a Data Science Solution on Azure](https://github.com/MicrosoftCloudEssentials-LearningHub/DP-100StudyGuide)
-- [GH-900: GitHub Foundations](https://github.com/Cloud2BR-MSFTLearningHub/GH-900StudyGuide)
+- <a href="https://github.com/MicrosoftCloudEssentials-LearningHub/AI-900StudyGuide" target="_blank" rel="noopener noreferrer">AI-900: Azure AI Fundamentals</a>
+- <a href="https://github.com/MicrosoftCloudEssentials-LearningHub/DP-900StudyGuide" target="_blank" rel="noopener noreferrer">DP-900: Azure Data Fundamentals</a>
+- <a href="https://github.com/MicrosoftCloudEssentials-LearningHub/AI-102StudyGuide" target="_blank" rel="noopener noreferrer">AI-102: Azure AI Engineer Associate</a>
+- <a href="https://github.com/MicrosoftCloudEssentials-LearningHub/DP-100StudyGuide" target="_blank" rel="noopener noreferrer">DP-100: Designing and Implementing a Data Science Solution on Azure</a>
+- <a href="https://github.com/Cloud2BR-MSFTLearningHub/GH-900StudyGuide" target="_blank" rel="noopener noreferrer">GH-900: GitHub Foundations</a>
 
 </details>
 
@@ -65,9 +65,9 @@ flowchart LR
 
 | Organization | Purpose |
 |---|---|
-| [**Cloud2BR**](https://github.com/Cloud2BR) | Consulting and enablement hub |
-| [**Cloud2BR TEC Hub**](https://github.com/Cloud2BR-TEC) | Technology Education Center |
-| [**Cloud2BR MSFT Learning Hub**](https://github.com/Cloud2BR-MSFTLearningHub) | Open-source Microsoft Cloud Sandbox |
+| <a href="https://github.com/Cloud2BR" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR</strong></a> | Consulting and enablement hub |
+| <a href="https://github.com/Cloud2BR-TEC" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR TEC Hub</strong></a> | Technology Education Center |
+| <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener noreferrer"><strong>Cloud2BR MSFT Learning Hub</strong></a> | Open-source Microsoft Cloud Sandbox |
 
 ## Get involved
 
@@ -76,7 +76,7 @@ flowchart LR
 - **Join** events and webinars to deepen your cloud knowledge
 
 > [!IMPORTANT]
-> Content is provided **AS-IS** and **WITH ALL FAULTS**. Pricing shown is for demonstration only and does not reflect final pricing. Microsoft assumes no liability for your use of this information. For official guidance, refer to Microsoft's documentation or contact [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME).
+> Content is provided **AS-IS** and **WITH ALL FAULTS**. Pricing shown is for demonstration only and does not reflect final pricing. Microsoft assumes no liability for your use of this information. For official guidance, refer to Microsoft's documentation or contact <a href="https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME" target="_blank" rel="noopener noreferrer">Microsoft Sales and Support</a>.
 
 > [!NOTE]
 > Content is for **learning, demonstrations, and proof-of-concepts**. Review and validate before using in production.
