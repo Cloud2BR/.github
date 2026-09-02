@@ -81,9 +81,3 @@ flowchart LR
 > [!NOTE]
 > Content is for **learning, demonstrations, and proof-of-concepts**. Review and validate before using in production.
 
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-0-0A66C2" alt="Total views">
-  <p>Refresh Date: 2026-09-02</p>
-</div>
-<!-- END BADGE -->
