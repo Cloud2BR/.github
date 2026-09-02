@@ -1,7 +1,7 @@
 # .github (Org Profile + Community Health)
 
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR](https://github.com/Cloud2BR)
+<a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff" alt="GitHub"></a>
+<a href="https://github.com/Cloud2BR" target="_blank" rel="noopener noreferrer">Cloud2BR</a>
 
 Last updated: 2026-02-25
 
