@@ -76,7 +76,7 @@ flowchart LR
 - **Join** events and webinars to deepen your cloud knowledge
 
 > [!IMPORTANT]
-> Content is provided **AS-IS** and **WITH ALL FAULTS**. Pricing shown is for demonstration only and does not reflect final pricing. Microsoft assumes no liability for your use of this information. For official guidance, refer to Microsoft's documentation or contact <a href="https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME" target="_blank" rel="noopener noreferrer">Microsoft Sales and Support</a>.
+> Content is provided **AS-IS** and **WITH ALL FAULTS**. Pricing shown is for demonstration only and does not reflect final pricing. Cloud2BR assumes no liability for your use of this information. For official guidance, refer to Microsoft's documentation or contact <a href="https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME" target="_blank" rel="noopener noreferrer">Microsoft Sales and Support</a>.
 
 > [!NOTE]
 > Content is for **learning, demonstrations, and proof-of-concepts**. Review and validate before using in production.
